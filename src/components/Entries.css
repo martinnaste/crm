@@ -1,0 +1,67 @@
+.Entries-container {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.Entries-wrapper {
+    width: 100%;
+    background: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgba(235,217,190,1);
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    /* border-collapse: collapse; */
+    margin: 4px;
+    table-layout: fixed;
+    width: calc(100% - 8px);
+}
+
+.CheckCircle {
+    width: 19px;
+    height: 19px;
+    padding: 0;
+    background-color: #ebd9be;
+    border-radius: 15px;
+}
+
+.DeleteCircle {
+    width: 19px;
+    height: 19px;
+    padding: 0;
+    background-color: #ebd9be;
+    border-radius: 15px;
+}
+
+td:nth-child(2),
+th:nth-child(2) {
+    border-radius: 15px 0 0 15px;
+}
+
+td:nth-last-child(2),
+th:nth-last-child(2) {
+    border-radius: 0 15px 15px 0;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    background-color: #ebd9be
+}
+
+td {
+    /* padding: 4px; */
+    overflow: hidden;
+}

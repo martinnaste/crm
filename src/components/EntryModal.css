@@ -1,0 +1,60 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EntryModal-content {
+    display: flex;
+    width: 66%;
+    height: 50%;
+    background-color: rgba(235, 217, 190, 90%);
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: flex-start;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(235, 217, 190, 90%);
+    border-radius: 10px;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: cornflowerblue;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(74, 110, 176)
+}
+
+.EntryModal-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100% - 48px);
+    height: 100%;
+}
+
+.EntryModal-scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 48px;
+    width: inherit;
+    overflow-y: scroll;
+    height: calc(100% - 96px);
+}

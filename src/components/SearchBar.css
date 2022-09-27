@@ -1,0 +1,26 @@
+.SearchBar-container {
+    margin-top: 32px;
+}
+
+.SearchBar-Wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchInput {
+    padding: 8px;
+    margin: 4px;
+    width: 300px;
+    border: 1px solid rgba(235,217,190,1);
+    border-radius: 30px;
+}
+
+.Search-Button {
+    background: rgba(235,217,190,1);
+    margin: 0;
+    padding: 2px;
+    border-radius: 15px;
+    width: 32px;
+}
