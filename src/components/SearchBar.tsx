@@ -1,10 +1,11 @@
-import React, { FC, useState } from 'react'
-import { TextField, ToggleButton } from '@mui/material'
-import SearchIcon from '@mui/icons-material/Search';
+import React, { FC } from 'react'
+import { TextField } from '@mui/material'
+// import { ToggleButton } from '@mui/material'
+// import SearchIcon from '@mui/icons-material/Search';
 import "./SearchBar.css"
 
 const SearchBar:FC<ISearchBarProps> = (props) => {
-    const [searchQuery, setSearchQuery] = useState('')
+    // const [searchQuery, setSearchQuery] = useState('')
 
 
 
