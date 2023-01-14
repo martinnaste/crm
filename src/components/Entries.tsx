@@ -24,7 +24,7 @@ const Entries:FC<IEntriesProps> = (props) => {
                         <tr>
                             <th className='CheckCircle'/>
                             <th>
-                                Name
+                                Full Name
                             </th>
                             <th>
                                 Company
@@ -33,10 +33,13 @@ const Entries:FC<IEntriesProps> = (props) => {
                                 Date
                             </th>
                             <th>
-                                Contact
+                                Email
                             </th>
                             <th>
-                                Info
+                                Phone Number
+                            </th>
+                            <th>
+                                Message
                             </th>
                             <th className='DeleteCircle'/>
                         </tr>
@@ -48,6 +51,39 @@ const Entries:FC<IEntriesProps> = (props) => {
             </div>
         </div>
     )
+
+    // return (
+    //     <div className='Entries-container'>
+    //         <div className='Entries-wrapper'>
+    //             <table>
+    //                 <thead>
+    //                     <tr>
+    //                         <th className='CheckCircle'/>
+    //                         <th>
+    //                             Name
+    //                         </th>
+    //                         <th>
+    //                             Company
+    //                         </th>
+    //                         <th>
+    //                             Date
+    //                         </th>
+    //                         <th>
+    //                             Contact
+    //                         </th>
+    //                         <th>
+    //                             Info
+    //                         </th>
+    //                         <th className='DeleteCircle'/>
+    //                     </tr>
+    //                 </thead>
+    //                 <tbody>
+    //                     {allEntries()}
+    //                 </tbody>
+    //             </table>
+    //         </div>
+    //     </div>
+    // )
 }
 
 export interface IEntriesProps {

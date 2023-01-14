@@ -1,5 +1,7 @@
-.SearchBar-container {
-    margin-top: 32px;
+.SearchBar-Container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .SearchBar-Wrapper {
@@ -7,6 +9,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 8px;
+    background: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgba(235,217,190,1);
+    width: auto;
 }
 
 .SearchInput {

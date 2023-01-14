@@ -1,3 +1,37 @@
+.EntryFieldWrapper {
+    width: 300px;
+}
+
+.TextField {
+    width: 280px;
+}
+
+.PhoneNumberField {
+    width: 185px;
+}
+
+.DatePicker{
+    width: 280px;
+}
+
+.GridWrapper {
+    padding: 8px;
+    background: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgba(235,217,190,1);
+}
+
+.GridDiv {
+    padding: 8px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+}
+
 .Entrybar {
     padding: 8px;
     margin: 4px;
@@ -13,17 +47,25 @@
 }
 
 .SubmitEntries-container {
-    padding-top: 24px;
+    /* padding-top: 24px; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .SubmitEntries {
-    width: min-content;
+    /* width: min-content;
     margin: 0;
     padding: 8px;
     background-color: white;
     border-radius: 20px;
+    cursor: pointer; */
+
+    /* width: 100px;
+    margin: 0;
+    padding: 8px;
+    background-color: white;
     cursor: pointer;
+    height: 50px; */
+    
 }

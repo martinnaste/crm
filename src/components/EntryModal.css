@@ -7,13 +7,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .EntryModal-content {
-    display: flex;
+    /* display: flex;
     width: 66%;
     height: 50%;
     background-color: rgba(235, 217, 190, 90%);
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: flex-start; */
+    display: flex;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(235, 217, 190, 95%);
     flex-direction: column;
     border-radius: 10px;
     align-items: flex-start;

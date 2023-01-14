@@ -24,18 +24,45 @@ const Entry:FC<IEntryProps> = (props) => {
                     {props.entry.Company}
                 </td>
                 <td>
-                    {props.entry.Date}
+                    {props.entry.Date?.format('ddd, D MMM YYYY')}
                 </td>
                 <td>
-                    {props.entry.Contact}
+                    {props.entry.Email}
                 </td>
                 <td>
-                    {props.entry.Info}
+                    {props.entry.PhoneNumber}
+                </td>
+                <td>
+                    {props.entry.Message}
                 </td>
                 <td className='DeleteCircleR' onClick={(e) => {onClickDelete(); e.stopPropagation()}}/>
             </tr>
         </>
     )
+
+    // return (
+    //     <>
+    //         <tr key={props.index} className={checked ? 'CheckedRow' : ''} onClick={() => {onClickRow()}}>
+    //             <td className='CheckCircleR' onClick={(e) => {setChecked(!checked); e.stopPropagation()}}/>
+    //             <td>
+    //                 {props.entry.Name}
+    //             </td>
+    //             <td>
+    //                 {props.entry.Company}
+    //             </td>
+    //             <td>
+    //                 {props.entry.Date}
+    //             </td>
+    //             <td>
+    //                 {props.entry.Contact}
+    //             </td>
+    //             <td>
+    //                 {props.entry.Info}
+    //             </td>
+    //             <td className='DeleteCircleR' onClick={(e) => {onClickDelete(); e.stopPropagation()}}/>
+    //         </tr>
+    //     </>
+    // )
 }
 
 export interface IEntryProps {
